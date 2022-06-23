@@ -34,5 +34,23 @@ namespace CiselneSoustavy
             Prevody prevody2 = new Prevody();
             MessageBox.Show("" + prevody2.HexToDec("1A7F"));
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Prevody prevody3 = new Prevody();
+            MessageBox.Show("" + prevody3.DecToHex(6783));
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Prevody prevody4 = new Prevody();
+            MessageBox.Show("" + prevody4.BinToHex("11011"));
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Prevody prevody5 = new Prevody();
+            MessageBox.Show("" + prevody5.HexToBin("1B"));
+        }
     }
 }
