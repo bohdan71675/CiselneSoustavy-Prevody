@@ -20,7 +20,7 @@ namespace CiselneSoustavy
         private void button1_Click(object sender, EventArgs e)
         {
             Prevody prevody = new Prevody();
-            MessageBox.Show("" + prevody.BinToDec(11011));
+            MessageBox.Show("" + prevody.BinToDec(111100));
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -44,13 +44,13 @@ namespace CiselneSoustavy
         private void button5_Click(object sender, EventArgs e)
         {
             Prevody prevody4 = new Prevody();
-            MessageBox.Show("" + prevody4.BinToHex("11011"));
+            MessageBox.Show("" + prevody4.BinToHex("111100"));
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Prevody prevody5 = new Prevody();
-            MessageBox.Show("" + prevody5.HexToBin("1B"));
+            MessageBox.Show("" + prevody5.HexToBin("3C"));
         }
     }
 }
